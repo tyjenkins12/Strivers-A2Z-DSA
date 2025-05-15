@@ -1,5 +1,5 @@
 class Solution:
-    def studentGrade(marks):
+    def studentGrade(self, marks):
         grade = ""
         if marks >= 90:
             grade = "Grade A"
@@ -12,5 +12,5 @@ class Solution:
         else:
             grade = "Fail"
         return grade
-    marks = 13
-    print(studentGrade(marks))
+s = Solution()
+print(s.studentGrade(13))
